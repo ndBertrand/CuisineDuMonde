@@ -1,0 +1,174 @@
+
+/*dans ce fichier on défini le style que toutes le page ont en commun
+  c'est à dire l'entête
+  la bare laterale
+  et le pied de bage
+*/
+/*==============================header=================================*/
+
+body{
+	font-family: Georgia, Times,serif;
+	font-style: 
+}
+#header{
+	margin: 0;
+	padding: 0;
+}
+.ligne1{
+	width: 100%
+	padding : 10px;
+	background-color: #000;
+	margin:0;
+}
+#header #logo, #menu{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#header #logo ,#menu ul li a,#header .ligne2 h2{
+	text-decoration: none;
+	color : #FFF;
+}
+#header #logo h1 {
+	padding: 0;
+	font-family:Darleston, Times, serif;
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+#header #logo  span {
+    color: #c52e02;
+}
+#header #logo  #lien{
+	position: relative;
+	top: -20px;
+	left: 30px;
+    color: #c52e02;
+    font-family: Gorgia, Time, serif;
+    letter-spacing: 0.05em;
+    color : #769e02;
+}
+
+#menu{
+	position: absolute;
+	right: 0;
+}
+#menu ul li { 
+display : inline;
+padding : 0 0.5em; 
+}
+#menu ul{
+list-style-type : none; 
+}
+
+#menu ul li a img:hover{
+	-webkit-transform: rotateY(130deg); /* Safari */
+    transform: rotateY(130deg);
+}
+#header .ligne2{
+  	background-image: url("images/rowbotbg.jpg");
+  	margin: 0;
+  	height: 100px;
+}
+#header .ligne2 #slogan{
+ 	margin:0;
+ 	font-family:Darleston, Times, serif;
+ 	color : white;
+ 	text-align: center;
+ 	font-size: 2em;
+ }
+
+ #header .ligne2 span{
+ 	color: #000;
+ }
+
+
+
+
+/*==============================CONTENT=================================*/
+
+#content{
+	width:1024px;
+	margin: auto;
+}
+
+#content #left_content{
+	width: 30%;
+	text-align: center;
+
+}
+
+#left_content figure {
+	padding: 0px;
+	margin: 0px
+}
+
+#left_content figure img {
+	width: 90%;
+}
+
+#left_content p{
+   text-align: justify;
+}
+#content #right_content{
+	position: relative;
+	right: 0;
+	width: 65%;
+}
+
+#content #left_content, #content #right_content{
+	display: inline-block;
+	vertical-align: top;
+}
+.info {
+	background-color: #CAE67C;
+	border : 1px solid #769e02;
+	padding: 10px;
+	margin-top :-10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+.info p{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+/*#content{
+	width:75%;
+	float: right;
+	margin-bottom : 5px;
+}
+
+
+#content .div_page{
+	width: 45%;
+}
+
+#ingredients,#nutrition{
+	display: inline-block;
+	vertical-align: top;
+}
+#video video{
+	width:600px;
+}
+*/
+/*==========================FOOTER=========================================*/
+
+#footer{
+	clear : both;
+	position: relative;
+	bottom: 0;
+    width: 100%;
+    padding: 23px 0 30px;
+    color: #fff;
+    background : #000;
+    margin-top: 20px;
+}
+
+#footer .center{
+	text-align : center;
+}
+
+#footer .center a {
+    color: #c52e02;
+    text-decoration : none;
+}
+

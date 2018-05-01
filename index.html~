@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+           <!--Ceci est l'entête de la page-->
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Cuisine du monde</title>
+  </head>
+  
+
+
+
+          <!--Ceci est le corps de la page-->
+
+  <body>
+    <head>
+		<meta charset = "utf-8">
+		<title>Cuisine du monde</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/styleB1.css">
+		<link rel="stylesheet" type="text/css" href="css/styleB2.css">
+		<link rel="stylesheet" type="text/css" href="css/slideshow.css">
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+
+	</head>
+	<body>
+	
+    	<!--==============================header=================================-->
+    <header id="header">
+    	<div class="ligne1">
+                	<h1>
+                		<a href="index.html">Cuisine du <span> Monde</span></a>
+                	</h1>
+                    <nav id="menu">
+                        <ul>
+                            <li><a href="index.html">About</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="catalogue.html">Catalogue </a></li>
+                            <li><a href="shipping.html">Shipping</a></li>
+                            <li><a href="page3.html">Inscription </a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+     
+        </div>
+        <div class="ligne2">
+                	<h2>Inspirer pour Changer <span>Votre Monde
+                	</span></h2>      
+        </div>
+
+	<div>
+		<section id="slideshow">
+    
+
+<span id="sl_play" class="sl_command"></span>
+<span id="sl_pause" class="sl_command"></span>
+ 
+<span id="sl_i1" class="sl_command sl_i"></span>
+<span id="sl_i2" class="sl_command sl_i"></span>
+<span id="sl_i3" class="sl_command sl_i"></span>
+<span id="sl_i4" class="sl_command sl_i"></span>
+
+
+<a class="play_cmd pause" href="#sl_pause" title="Maintain paused">Pause</a>
+<a class="play_cmd play" href="#sl_play" title="Play the animation">Play</a>
+
+
+<a class="cmd prev cmd1" href="#sl_i4" title="Aller à la derni  &egrave;re slide">&lt;</a>
+<a class="cmd next cmd1" href="#sl_i2" title="Aller à la 2  &egrave;me slide">&gt;</a>
+<a class="cmd prev cmd2" href="#sl_i1" title="Aller à la 1  &egrave;re slide">&lt;</a>
+<a class="cmd next cmd2" href="#sl_i3" title="Aller à la 3  &egrave;me slide">&gt;</a>
+<a class="cmd prev cmd3" href="#sl_i2" title="Aller à la 2  &egrave;me slide">&lt;</a>
+<a class="cmd next cmd3" href="#sl_i4" title="Aller à la 4  &egrave;me slide">&gt;</a>
+<a class="cmd prev cmd4" href="#sl_i3" title="Aller à la 3  &egrave;me slide">&lt;</a>
+<a class="cmd next cmd4" href="#sl_i1" title="Aller à la 1  &egrave;re slide">&gt;</a>
+
+
+
+  <div class="contain">
+    <div class="c_slider"></div>
+    <div class="slider">
+      <figure>
+        <img src="css/images/banner/banner1.jpg" alt="" />
+        <figcaption> Bienvenu &agrave; Midi D&eacute;lices </figcaption>
+
+      </figure><!----><figure>
+        <img src="css/images/banner-2.jpg" alt="" />
+        <figcaption>Dinner dans un d&eacute;cor parfait</figcaption>
+      </figure><!--
+      --><figure>
+        <img src="css/images/banner-3.jpg" alt="" />
+        <figcaption> La terrasse , en plein air</figcaption>
+
+      </figure><!--
+      --><figure>
+        <img src="css/images/banner-2.jpg" alt=""  />
+        <figcaption>Une pr&eacute;sentation soign&eacute;e</figcaption>
+      </figure>
+    </div>
+  </div>
+    
+  <span id="timeline"></span>
+  <ul class="start"><!--
+  --><li><a title="Afficher la slide 1" href="#sl_i1">Slide 1</a></li><!--
+  --><li><a title="Afficher la slide 2" href="#sl_i2">Slide 2</a></li><!--
+  --><li><a title="Afficher la slide 3" href="#sl_i3">Slide 3</a></li><!--
+  --><li><a title="Afficher la slide 4" href="#sl_i4">Slide 4</a></li>
+</ul>
+</section>
+	</div>
+    </header>
+	
+	<!-- C'est la bar de navigation;-->
+    <!-- <nav>
+	   	<ul>
+	   		<li><a href="index.html">Acceuil</a></li>
+	   		<li><a href="">Nos Recettes</a>
+                <ul>
+                    <li><a href="">Par Continents</a>
+                        <ul>
+                            <li><a href="">Afrique</a></li>
+                            <li><a href="">Amerique</a></li>
+                            <li><a href="">Asie</a></li>
+                            <li><a href="">Europe</a></li>
+                        </ul>	
+                    </li>
+                </ul>
+
+                <ul>
+                    <li><a href="">Par type</a>
+                        <ul>
+							<li><a href="">Appero</a></li>
+                            <li><a href="">Entree</a></li>
+                            <li><a href="">plats</a></li>
+							<li><a href="">dessert</a></li>
+						</ul>	
+					</li>
+				</ul>
+
+			</li>
+			<li><a href=""></a>Nos Restaurants</li>
+		</ul>
+   </nav> -->
+	
+	<!--Elle est ma balise aside-->
+ 
+	
+	<div id="content">
+		<section>
+			<div id="introduction">
+				
+			
+			<!--C'est notre introduction sur la diversité culinaire-->
+				
+					<p>
+						La cuisine a ainsi dépassé son simple impératif biologique d'alimentation pour devenir un corpus de techniques plus ou moins pointues, un fait culturel,un élément de patrimoine et d'identité national ou familial, un élément de s
+						continents tels que l’Afrique,l’Europe, L’Amérique, L’Asie nous vous incitions à nous suivre, nous serons votre guide.Alors prêt pour le voyage ?</p>
+			</div>		
+				<!--C'est une recette Africaine-->
+			<article class="exampleofrecette">
+				
+				
+				<figure>
+					<a href="#"><img src="css/images/recette3.jpg" title="image 1 de maffé au poulet avec du riz." alt="image 1 de maffé au poulet avec du riz." class="miniature"/></a>
+					
+				</figure>
+				<div class="titre"><h3>Le mafé</h3></div>
+				<div class="recette">
+				 <div class="intro">
+					<p>
+					Le mafé (ou maafé, maffé) est une sauce onctueuse à base de pâte d'arachide. Sa préparation peut s'agrémenter de viande ou de poisson. Ce plat <p>
+					</p>s'accompagne facilement avec du riz. C'est une sauce qu'on retrouve dans toute l'Afrique subsaharienne sous des appellations différentes. C'est 
+					un des deux plats les plus connus en dehors du continent africain avec le yassa.
+					</p>
+				</div>
+                        		<a class="button-1" href="page2.html">lire plus</a>
+				</div>
+				
+			</article>
+			<article class="exampleofrecette">
+
+				<figure>
+					<img src="css/images/recette2.jpg" title="Pot au feu" alt="Pot au feu" class="miniature"/>
+
+					
+				</figure>
+				<div class="titre"><h3>Pot-au-feu</h3></div>
+				<div class="recette">
+ <div class="intro">
+					<p>Le pot-au-feu est l'un des mets emblématiques du repas gastronomique des Français. C’est un plat de viande de bœuf cuisant longuement à feu très 
+					doux dans un bouillon aromatisé par des légumes et un bouquet garni.</p>
+<p>
+In varius arcu neque, eget eleifend leo molestie non. Vivamus interdum nunc at ex placerat fermentum. Ut ut condimentum ligula, sollicitudin 
+					</p>
+</div>
+<a class="button-1" href="page2.html">lire plus</a>
+				</div>
+				
+			</article>
+			<article class="exampleofrecette">
+				
+				<figure>
+						<img src="css/images/recette4.jpg" alt="Riz cantonais" title="Riz cantonais" class="miniature">
+						
+				</figure>
+<div class="titre"><h3>Riz cantonais</h3></div>
+				<div class="recette">
+                                   <div class="intro">
+					<p>Le riz cantonais est le nom donné en France à un plat de riz frit, servi avec <em>des lamelles de porc et des légumes mélangés</em>, qu'on pense originaire <strong> de Canton</strong> Chine</p>.
+
+<p>
+In varius arcu neque, eget eleifend leo molestie non. Vivamus interdum nunc at ex placerat fermentum. Ut ut condimentum ligula, sollicitudin 
+					</p>
+</div>
+
+<a class="button-1" href="page2.html">lire plus</a>
+				</div>
+				
+			</article>
+		</section>
+
+</div>
+	
+    <footer id="footer">
+
+		<div class="center">Cuisine du Monde © 2016</div>
+		<div class="center">Powered By <a href="mailto:bertrandndayisenga@rocketmail.com">Bertrand N.</a> & <a href="mailto:cedriclingom@rocketmail.com">David Cédric L.K</a></div>
+		<a href="#top">Top<a>
+    </footer>
+  
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+           <!--Ceci est l'entête de la page-->
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Cuisine du monde</title>
+  </head>
+  
+
+
+
+          <!--Ceci est le corps de la page-->
+
+  <body>
+    <head>
+		<meta charset = "utf-8">
+		<title>Cuisine du monde</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/styleB1.css">
+		<link rel="stylesheet" type="text/css" href="css/styleB2.css">
+		<link rel="stylesheet" type="text/css" href="css/styleForm.css">
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+
+	</head>
+	<body>
+	
+    	<!--==============================header=================================-->
+    <header id="header">
+    	<div class="ligne1">
+                	<h1>
+                		<a href="index.html">Cuisine du <span> Monde</span></a>
+                	</h1>
+                    <nav id="menu">
+                        <ul>
+                            <li><a href="index.html">About</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="catalogue.html">Catalogue </a></li>
+                            <li><a href="shipping.html">Shipping</a></li>
+                            <li><a href="faq.html">FAQ </a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+     
+        </div>
+        <div class="ligne2">
+                	<h2>Inspirer pour Changer <span>Votre Monde
+                	</span></h2>      
+        </div>
+    </header>
+	
+	
+ 
+	
+	<div id="content">
+		<section>
+	<h2>Creer ton compte</h2>
+	<form method="post" action="htbin/register.py">
+	  <fieldset>
+	    <legend>Enregistrement</legend>
+	    <label for="lastname">Nom:</label> <input type="text" name="lastname" id="lastname" /><span class="hidden" id="confirmName" ></span><br/>
+	    <label for="firstname">Prénom:</label> <input type="text" name="firstname" id="firstname"/><br/>
+	    <label for="birthdate">Date de naissance:</label> <input type="text" name="birthdate" id="birthdate"/><br/>
+	    <label for="username">Nom d'utilisateur:</label> <input type="text" name="username" id="username"/><br/>
+	    <label for="userpwd">Mot de passe:</label><input type="password" name="userpwd" id="userpwd"/><br/>
+	    <label for="useremail">Adresse email:</label><input type="text" name="useremail" id="useremail"/><br/>
+	    <input type="submit" value="Envoyer" disabled="disabled"/>
+	    
+	  </fieldset>
+	</form>
+      </section>
+        </div>
+	
+    <footer id="footer">
+
+		<div class="center">Cuisine du Monde © 2016</div>
+		<div class="center">Powered By <a href="mailto:bertrandndayisenga@rocketmail.com">Bertrand N.</a> & <a href="mailto:cedriclingom@rocketmail.com">David Cédric L.K</a></div>
+		<a href="#top">Top<a>
+    </footer>
+  
+  <script type="text/javascript" src="js/register.js"> </script>
+  </body>
+</html>

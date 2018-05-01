@@ -1,0 +1,21 @@
+@font-face{
+	font-family: Copse;
+    src: url('font/Copse/Copse-Regular.ttf');
+}
+@font-face{
+	font-family: Damion;
+    src: url('font/Damion/Damion-Regular.ttf');
+}
+
+@font-face{
+	font-family: "Master of Break";
+    src: url('font/master_of_break/master_of_break.ttf');
+}
+@font-face{
+	font-family: "Darleston";
+    src: url('font/darleston/Darleston.otf');
+}
+@font-face{
+	font-family: "bird";
+    src: url('font/bird/bird.ttf');
+}

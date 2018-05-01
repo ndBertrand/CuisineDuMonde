@@ -1,0 +1,16 @@
+#right_content #video video{
+	width: 100%
+}
+#ingredients .liste h2{
+	padding: 0px;
+	margin: 0px;
+}
+#ingredients .liste, #ingredients img{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#nutrition{
+	background-color: #66c2ff;
+	border: 1px solid #0099ff;
+}

@@ -1,0 +1,8 @@
+.hidden{
+  	display : none
+}
+.ok{
+	display : inline;
+	background : url("images/ok.jpg") repeat-x none;
+	width : 50px;
+}

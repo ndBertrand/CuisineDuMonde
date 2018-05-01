@@ -1,0 +1,52 @@
+/*====================================INDEX CSS======================================*/
+#intro{
+	text-align: center;
+}
+#right_content p{
+	padding: 0px;
+	text-align: justify;
+}
+#right_content .exampleofrecette{
+	padding:0;
+	margin-top: 3px;
+}
+
+#right_content .exampleofrecette figure{
+	padding: 0px;
+	margin: 0px;
+}
+
+.exampleofrecette a img{
+	width: 100%
+}
+
+#right_content .exampleofrecette .recette{
+	width : 100%;
+	
+}
+#right_content .exampleofrecette .recette p{
+	text-align: justify;
+	padding : 5px;
+	
+}
+#right_content .exampleofrecette .recette .intro{
+	text-align: justify;
+	padding : 5px;
+}
+.exampleofrecette{
+	width : 32%;
+	float : left;
+	margin-right:5px;
+}
+.button-1 {
+    display: inline-block;
+    padding: 12px 19px;
+    font-size: 13px;
+    line-height: 1.23em;
+    color: #fff;
+    background: url("images/button1-tail.gif") 0 0 repeat-x #c42e02;
+    cursor: pointer;
+    text-decoration : none;
+}
+
+
